@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import Navigation from "../components/Navigation";
 
 const StyledDiv = styled.div `
   width: 100px;
@@ -10,13 +11,13 @@ const StyledDiv = styled.div `
 
 const IndexPage = () => (
   <>
+    <Navigation/>
     <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <p>Welcome to my new Gatsby site.</p>
+    <p>Soon</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <StyledDiv/>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </>
 )
