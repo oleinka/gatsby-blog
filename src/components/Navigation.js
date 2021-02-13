@@ -3,12 +3,16 @@ import styled from 'styled-components';
 import { Link } from 'gatsby';
 
 const NavigationWrapper = styled.nav `
+    position: absolute;
+    width: 100%; 
+    top: 0;
+    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-family: 'Quicksand';
     font-size: 25px;
-    padding: 0 30px;
+    padding: 30px;
     a {
         text-decoration: none;
         color: inherit;
