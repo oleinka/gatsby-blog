@@ -13,7 +13,7 @@ const FooterWrapper = styled.nav `
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     padding: 30px;
-    background-color: #3d3a32;
+    background-color: #8c719e;
     color: white;
     a {
         text-decoration: none;
