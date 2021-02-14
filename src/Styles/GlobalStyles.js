@@ -10,12 +10,12 @@ const GlobalStyle = createGlobalStyle `
     body {
         margin: 0;
         padding: 100px 80px;
-        font-family: 'Quicksand';
+        font-family: 'Quicksand', sans-serif;
     }
     button {
         padding: 0;
         cursor: pointer;
-        font-family: 'Quicksand';
+        font-family: 'Quicksand', sans-serif;
     }
     ul {
         margin: 0;

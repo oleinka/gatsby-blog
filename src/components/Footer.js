@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 
-const NavigationWrapper = styled.nav `
+const FooterWrapper = styled.nav `
     position: absolute;
     width: 100%; 
-    top: 0;
+    bottom: 0;
     left: 0;
     display: flex;
     align-items: center;
@@ -13,38 +13,37 @@ const NavigationWrapper = styled.nav `
     font-family: 'Quicksand', sans-serif;
     font-size: 20px;
     padding: 30px;
+    background-color: #3d3a32;
+    color: white;
     a {
         text-decoration: none;
         color: inherit;
     }
 `;
-const NavigationItems = styled.ul `
+const FooterItems = styled.ul `
     display: flex; 
     flex-direction: row;
     list-style-type: none;
 `;
 
-const NavigationList = styled.li `
+const FooterList = styled.li `
     margin-left: 20px;
 `
 
-const Navigation = () => (
-<NavigationWrapper>
-<span>
-    <Link to='/'>LOGO</Link>
-</span>
-<NavigationItems>
-    <NavigationList>
+const Footer = () => (
+<FooterWrapper>
+<FooterItems>
+    <FooterList>
         <Link to='/'>Strona główna</Link>
-    </NavigationList>
-    <NavigationList>
+    </FooterList>
+    <FooterList>
         <Link to='/projects'>Portfolio</Link>
-    </NavigationList>
-    <NavigationList>
+    </FooterList>
+    <FooterList>
         <Link to='/contact'>Kontakt</Link>
-    </NavigationList>
-</NavigationItems>
-</NavigationWrapper>
+    </FooterList>
+</FooterItems>
+</FooterWrapper>
 )
 
-export default Navigation
+export default Footer

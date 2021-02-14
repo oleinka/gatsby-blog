@@ -1,5 +1,6 @@
 import React from "react"
 import Navigation from "../components/Navigation";
+import Footer from "../components/Footer";
 import GlobalStyle from "../Styles/GlobalStyles";
 
 const MainLayout = ({children}) => (
@@ -7,7 +8,7 @@ const MainLayout = ({children}) => (
     <GlobalStyle/>
     <Navigation/>
     {children}
-    <h1>Layout</h1>
+    <Footer/>
   </>
 )
 

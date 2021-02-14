@@ -21,7 +21,7 @@ module.exports = {
         fonts: [
           {
             family: `Quicksand`,
-            variants: [`300`, `400`, `700`],
+            variants: [`300`,`400`,`700`],
           },
         ],
       },
